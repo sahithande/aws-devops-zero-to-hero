@@ -2,6 +2,4 @@
 
 set -e
 
-container_id='docker ps | awk -F" " '{print $1}''
-
-docker rm -f $container_id
+echo "Deployed the container on to the ec2 machine."
